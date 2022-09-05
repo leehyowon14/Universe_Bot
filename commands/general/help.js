@@ -12,12 +12,12 @@ module.exports = {
         }
         let embed = new EmbedBuilder()
             .setColor('#5865F2')
-            .setTitle('울프봇 명령어')
-            .setAuthor({ name:'울프봇 도움말', url: img })
+            .setTitle('Universe Bot 명령어')
+            .setAuthor({ name:'Universe Bot 도움말'})
             .addFields(
                 {name: '\u200B', value:'\u200B'},
                 {name: '!ping/핑', value:'이쒸'},
-                {name: '!아바타 [멘션]', value:'아바타 보기.'},
+                {name: '!아바타/!avatar/!av [멘션]', value:'아바타 보기.'},
                 {name: '\u200B', value:'\u200B'},
                 {name: `${prefix}moderate/${prefix}관리자`, value:'관리자 명령어'},
             )

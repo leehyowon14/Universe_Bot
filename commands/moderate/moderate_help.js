@@ -15,8 +15,8 @@ module.exports = {
 
         let embed = new EmbedBuilder()
             .setColor('#5865F2')
-            .setTitle('울프봇 (ADMIN)명령어')
-            .setAuthor({ name: '울프봇 도움말' })
+            .setTitle('Universe Bot (ADMIN)명령어')
+            .setAuthor({ name: 'Universe Bot 도움말' })
             .addFields(
                 {name: '\u200B', value: '\u200B'},
                 {name: `${prefix}ban [멘션/유저 id]`, value: '밴'},

@@ -31,7 +31,7 @@ module.exports = {
 
         let embed = new EmbedBuilder()
             .setColor("#ED4245")
-            .setAuthor({ name: `${message.guild.name} 에서 추방되셨습니다. (서버 재입장 가능)`, iconURL: message.guild.iconURL })
+            .setAuthor({ name: `${message.guild.name} 에서 추방되셨습니다. (서버 재입장 가능)`, iconURL: message.guild.iconURL()})
             .setDescription(`사유: ${reason}`)
             .setTimestamp()
             .setFooter({ text: 'Developed by sG.wolf' })
@@ -48,7 +48,7 @@ module.exports = {
 
         embed = new EmbedBuilder()
             .setColor("#ED4245")
-            .setAuthor({ name: `${message.guild.name} Modlogs`, iconURL: message.guild.iconURL })
+            .setAuthor({ name: `${message.guild.name} Modlogs`, iconURL: message.guild.iconURL()})
             .addFields(
                 [
                     {name: "Moderation:", value: "kick"},

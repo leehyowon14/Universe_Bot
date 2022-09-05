@@ -17,5 +17,5 @@ module.exports = (bot, reload = false) => {
             }
         };
     };
-    ["moderate"].forEach(x => load_commands(x));
+    ["general", "moderate"].forEach(x => load_commands(x));
 };

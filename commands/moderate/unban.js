@@ -45,7 +45,7 @@ module.exports = {
 
         embed = new EmbedBuilder()
             .setColor("#ED4245")
-            .setAuthor({ name: `${message.guild.name} Modlogs`, iconURL: message.guild.iconURL })
+            .setAuthor({ name: `${message.guild.name} Modlogs`, iconURL: message.guild.iconURL()})
             .addFields(
                 [
                     {name: "Moderation:", value: "unban"},
